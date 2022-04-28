@@ -1,0 +1,7 @@
+[package]
+name = "screen_scanner"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+x11 = { version = "2.19.1", features = ["xlib"] }
